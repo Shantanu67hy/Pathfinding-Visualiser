@@ -1,0 +1,97 @@
+# Pathfinding Visualizer
+
+An interactive **algorithm visualization platform** that demonstrates how classic graph search and shortest-path algorithms explore a grid in real time.
+Built to showcase **data structures, algorithm design, performance optimization, and modern frontend engineering**.
+
+---
+
+## Live Demo
+
+👉 Add your deployed link here
+Example: [https://your-domain.vercel.app](https://your-domain.vercel.app)
+
+---
+
+## Overview
+
+This project visualizes how different **pathfinding algorithms** behave on a 2D grid with walls, weights, and dynamic user interaction.
+
+Users can:
+
+* Place **start and end nodes**
+* Draw **walls and obstacles**
+* Generate **random mazes**
+* Run multiple **pathfinding algorithms**
+* Watch **step-by-step animated exploration**
+* Compare **algorithm efficiency and path cost**
+
+The goal is to transform abstract **DSA concepts** into an intuitive, visual learning experience.
+
+---
+
+## Algorithms Implemented
+
+### Pathfinding
+
+* Dijkstra’s Algorithm
+* A* Search
+* Breadth-First Search (BFS)
+* Depth-First Search (DFS)
+* *(Extendable to Bidirectional BFS, Jump Point Search, Floyd-Warshall, etc.)*
+
+### Maze Generation
+
+* Recursive Division
+* Binary Tree
+* *(Extendable to Prim’s, Kruskal’s, Wilson’s algorithms)*
+
+---
+
+## Key Engineering Features
+
+* **Real-time grid rendering** with efficient state updates
+* **Step-by-step animation engine** using controlled timing
+* **Immutable state history** enabling replay/debugging *(upgrade ready)*
+* **Scalable architecture** supporting large grids and multiple algorithms
+* **Clean React component design** with separation of concerns
+* **Type-safe logic using TypeScript** for reliability and maintainability
+
+---
+
+## Tech Stack
+
+**Frontend**
+
+* React
+* TypeScript
+* Tailwind CSS
+
+**Algorithms & Data Structures**
+
+* Graph traversal & shortest-path algorithms
+* Priority queues, stacks, queues, visited sets
+
+**Tooling & Deployment**
+
+* Vite
+* ESLint + Prettier
+* Vercel deployment
+
+---
+
+## Project Structure
+
+```
+src/
+ ├── algorithms/      # Pathfinding & maze logic
+ ├── components/      # Grid, nodes, controls, UI
+ ├── hooks/           # State & animation logic
+ ├── utils/           # Helpers & data structures
+ └── App.tsx
+```
+
+---
+
+## Performance Considerations
+
+* Minimizes u
